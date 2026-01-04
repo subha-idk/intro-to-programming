@@ -11,7 +11,6 @@ struct node *create_doubly_ll(int *arr, int n);
 void display(struct node *head);
 
 int main(){
-  // {40,50,60}
   int arr[] = {40,50,60,12,25,67};
   int n = sizeof(arr)/sizeof(arr[0]);
   struct node *root = create_doubly_ll(arr,n);
